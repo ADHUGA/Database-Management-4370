@@ -1,0 +1,372 @@
+body {
+	font-family: copperplate, fantasy;
+	width: 100%;
+	margin: 0px;
+	background-color: #F8F3E1;
+	position: absolute;
+	overflow-x: hidden;
+	min-width: 389px;
+	min-height: 531px;
+}
+
+#checkoutbody {
+	padding-bottom: 100px;
+}
+
+#productBody {
+	padding-bottom: 100px;
+	background-color: #bbb;
+}
+
+#cartBody {
+	padding-bottom: 100px;
+}
+
+#navbar_div {
+	position: fixed;
+	top: 0;
+	list-style-type: none;
+	width: 100.45%;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: #333;
+	position: relative;
+	bottom: 21px;
+	position: sticky;
+	text-align: center;
+}
+
+#navbar_div li {
+	display: inline-block;
+}
+
+#navbar_div li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px 18px;
+	text-decoration: none;
+}
+
+#navbar_div li a:hover:not(.active) {
+	background-color: #111;
+}
+
+#navbar_div .active {
+	background-color: #ffae00;
+}
+
+#background_img1 h1 {
+	text-align: center;
+	color: #ffae00;
+	width: 100%;
+	margin-top: 0px;
+	padding: 0px;
+	font-size: 90px;
+	position: relative;
+	top: 10px;
+}
+
+#background_img1 {
+	background-image: url("../images/carbeans.jpg");
+	background-size: auto;
+	width: 100%;
+	height: 140px;
+	border: 2px solid;
+	padding-left: 5px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-color: black;
+}
+
+img {
+	margin-top: 0px;
+	width: 250px;
+	height: 350px;
+	/* width: 100%;
+	height: 400px; */
+}
+
+#images_div {
+	text-align: center;
+}
+
+#menu_div {
+	text-align: center;
+}
+
+.menu_items_button {
+	font-size: 24px;
+	font-family: copperplate, fantasy;
+	background-color: #8f5a2c;
+	color: #F8F3E1;
+	border-radius: 6px;
+	border-width: 2px;
+	border-color: black;
+	margin: 5px;
+}
+
+#cart h2 {
+	text-align: center;
+}
+
+#cart table, td, th {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 16px 18px;
+	text-align: center;
+}
+
+#cart table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#cart th {
+	background-color: #333;
+	color: white;
+}
+
+#cart tr:nth-child(even) {
+	background-color: #ffe0c5;
+}
+
+#cart form {
+	text-align: center;
+}
+
+#checkout form {
+	text-align: center;
+}
+
+input[type=text] {
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 2px solid black;
+	border-radius: 4px;
+}
+
+
+
+figcaption input[type=number] {
+	padding: 0px 5px;
+	margin: 0px 0px;
+	width: 12%;
+	height: 25px;
+	border: 2px solid black;
+	border-radius: 4px;
+}
+
+.together {
+	display: inline-block;
+}
+
+.clear {
+	clear: both;
+}
+
+#fulllength input {
+	/* width: 21.5%; */
+	width: 406px;
+}
+
+.checkout {
+	font-size: 24px;
+	font-family: copperplate, fantasy;
+	background-color: #8f5a2c;
+	color: #F8F3E1;
+	border-radius: 6px;
+	border-width: 2px;
+	border-color: black;
+	margin: 5px;
+	margin-top: 20px;
+}
+
+.column .right .search-container button {
+	float: right;
+	padding: 6px 10px;
+	margin-top: 8px;
+	margin-right: 200px;
+	background: #ddd;
+	font-size: 17px;
+	border: none;
+	cursor: pointer;
+
+}
+
+.column .right .search-container {
+	float: right;
+}
+
+#footer {
+	position: fixed;
+	background-color: #333;
+	color: #fff;
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+	float: left;
+	padding: 10px;
+	background-color: #ffae00;
+}
+
+.left {
+	width: 25%;
+	padding-bottom: 25px;
+}
+
+.right {
+	width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.left h2 {
+	text-align: center;
+	font-size: 200%;
+}
+
+.right h2 {
+	text-align: center;
+	font-size: 200%;
+}
+
+/* .right input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+} */
+
+
+
+
+/* .textbox {
+  float: left;
+  width: 33.33%;
+  margin: auto;
+  border: 1px solid black;
+  
+} */
+
+
+
+
+/* .pics::after {
+  content: "";
+  clear: both;
+  display: table;
+} */
+
+.pics {
+	display: flex;
+	flex-wrap: wrap;
+	/* align-content: space-around; */
+	justify-content: center;
+	gap: 0px 0px;
+}
+
+.textbox {
+	flex: 0 0 25%;
+	text-align: center;
+	margin: 0px 0px;
+	flex-shrink: 0;
+}
+
+/* figure {
+	border: 1px solid black;
+	padding: 0px 0px;
+	margin: 0px 0px;
+} */
+
+figure figcaption {
+	/* border: 1px solid black; */
+	/* width: 250px; */
+	text-align: center;
+	/* margin-left: 152px; */
+}
+
+
+#demo11 {
+	padding-bottom: 25px;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.column.left {
+	position: fixed;
+	top: 50px;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	bottom: 21px;
+	position: sticky;
+	text-align: left;
+	border: 3px solid black;
+}
+
+figure img {
+	border: 3px dotted orange;
+	width: 100%;
+	height: 400px;
+	flex-shrink: 0;
+}
+
+/* @media screen and (max-width: 600px) {.column { width: 100%;} } to adjust a minimum size for the foods and drinks. Need to implement */
+
+.loginColumn {
+	height: 300px;
+	width: 100%;
+	text-align: center;
+}
+
+.loginLeft {
+	padding-left: 110px;
+}
+
+.loginRight {
+	padding-left: 20px;
+}
+
+/* .loginRow:after {
+	content: "";
+	display: table;
+	clear: both;
+} */
+
+#flexContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0px 50px;
+}
+
+input[type=password] {
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 2px solid black;
+	border-radius: 4px;
+}
